@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Justin> -- <Front End Dev>
 
 # THANKS
 
-    <name>
+    <Baby Jesus>
 
 # TECHNOLOGY COLOPHON
 
