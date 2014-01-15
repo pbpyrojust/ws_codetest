@@ -100,11 +100,12 @@ textarea {
 /* GRID */
 .column { float: left; }
 .grid2col, .grid2cola, .grid3col, .grid3cola { width: 100%; }
+.grid2col, .grid4col { margin-bottom: 16px; }
 .grid2col .column { width: 49%; border: 1px solid #000; }
 .grid2cola .column.first { width: 20%; border-right: 2px solid #000; }
 .grid2cola .column.last { width: 78%; }
 .grid3col .column { width: 32%; margin-left: 2%; }
-.grid4col .column { width: 23%; margin-left: 3%; }
+.grid4col .column { width: 23%; margin-left: 2%; }
 .column.first, .column.last { margin-left: 0 !important; }
 .column.last { float: right !important; }
 
@@ -136,6 +137,9 @@ section:nth-of-type(3n-1) header { background-color: #ccc; margin-right: 20px; }
 section:last-of-type {
 	text-align: center;
 	border-top: 2px solid #000;
+}
+section:last-of-type p:before {
+	content: '\00a9'; 
 }
 
 
