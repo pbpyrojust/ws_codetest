@@ -133,6 +133,10 @@ section:first-of-type header nav:nth-of-type(3n-1) { bottom: 0; }
 .hero h2 { margin: 0; }
 section:nth-of-type(3n-1) nav a { display: inherit; }
 section:nth-of-type(3n-1) header { background-color: #ccc; margin-right: 20px; }
+section:last-of-type {
+	text-align: center;
+	border-top: 2px solid #000;
+}
 
 
 
