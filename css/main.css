@@ -100,7 +100,7 @@ textarea {
 /* GRID */
 .column { float: left; }
 .grid2col, .grid2cola, .grid3col, .grid3cola { width: 100%; }
-.grid2col .column { width: 49%; }
+.grid2col .column { width: 49%; border: 1px solid #000; }
 .grid2cola .column.first { width: 20%; border-right: 2px solid #000; }
 .grid2cola .column.last { width: 78%; }
 .grid3col .column { width: 32%; margin-left: 2%; }
