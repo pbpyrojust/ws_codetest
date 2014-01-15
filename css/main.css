@@ -96,6 +96,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* GRID */
+.column { float: left; }
+.grid2col, .grid2cola, .grid3col, .grid3cola { width: 100%; }
+.grid2col .column { width: 49%; }
+.grid2cola .column.first { width: 20%; border-right: 2px solid #000; }
+.grid2cola .column.last { width: 78%; }
+.grid3col .column { width: 32%; margin-left: 2%; }
+.grid4col .column { width: 23%; margin-left: 3%; }
+.column.first, .column.last { margin-left: 0 !important; }
+.column.last { float: right !important; }
+
+/* CUSTOM STYLES */
 body{
 	max-width: 1080px;
 	margin: 0 auto 0 auto;
@@ -104,30 +117,23 @@ body{
 	-o-box-shadow: 0 1px 8px;
 	box-shadow: 0 1px 8px;
 }
-h1 {
-	display: inline-block;
-}
-section:first-of-type header {
-	position: relative;
-}
+h1 { display: inline-block; }
+section:first-of-type header { position: relative; }
 section:first-of-type header nav:first-of-type, section:first-of-type header nav:nth-of-type(3n-1) {
 	position: absolute;
 	right: 0;
 }
-section:first-of-type header nav:first-of-type {
-	top: 0;
-}
-section:first-of-type header nav:nth-of-type(3n-1) {
-	bottom: 0;
-}
+section:first-of-type header nav:first-of-type { top: 0; }
+section:first-of-type header nav:nth-of-type(3n-1) { bottom: 0; }
 .hero {
 	background-color: #ccc;
 	text-align: center;
 	padding: 40px;
 }
-.hero h2 {
-	margin: 0;
-}
+.hero h2 { margin: 0; }
+section:nth-of-type(3n-1) nav a { display: inherit; }
+section:nth-of-type(3n-1) header { background-color: #ccc; margin-right: 20px; }
+
 
 
 
